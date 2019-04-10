@@ -9,19 +9,61 @@ The book is downloadable here: https://allesinalab.uchicago.edu/wp-content/uploa
 II. Answer the following question. What does this do?   
 
 1. ls [A-Z]*
+	 ls- lists the files in the directory
+	[A-Z]*- lists information about the files in the current directory and sorts them alphabetically (if sort is not specified) while defining a class of characters
+	 ls [A-Z]*- lists the directory while defining a class of characters, listing the information about the files.
 2. cp *.sh /tmp
+	cp- copies files and directories
+	*.sh /tmp- copies the sourse to the destination/ multiples sources to directory
 3. man pwd
+	man- an interface to the on-line reference manuals, shows help page of a command
+	pwd- shows the current directory 
+	man pwd- will show the help page on the current directory
 4. cd ~
+	cd- changes directory
+	cd ~ - goes to your home directory
 5. mkdir -p /test1/test2/test3 
+	mkdir- creates a directory
+	-p -adds more detail
+	mkdir -p /test1/test2/test3 -creates the directory test3 and test 1 and test 2 if they do not already exist
 6. cp -r /tmp .
+	cp- copies a file
+	cp -r -copies a directory recursively including all the sub directories and files
+	/tmp -temporary files
+	cp -r /tmp . -copies a temporary files
 7. ls | less
+	ls- list the files in the directory 
+	less- progressively prints a file on the screen
+	ls | less- print on the screen the list of files in the directory
 8. head -n 24 test.txt » abc.txt
+	head- prints the first few lines of a file
+	-n -shows the line number
+	head -n 24 test.txt » abc.txt -will print the first few lines of a file, number the lines, obtain number 24, move it from test.txt into abc.text (appending 24 into the existing file abc.txt) 
 9. echo "aaa" > aaa.txt
+	echo- print a string
+	echo "aaa" > aaa.txt -will print "aaa" into aaa.txt
 10. ps -u sallesina
+	ps- will report a snapshot of the current processes
+	-u -will select by effect user ID or name
+	ps -u sallesine -will report a snapshot of the current progress of the effective user sallesine (the userlist)
 11. top
+	top- displays Linux tasks
 12. ls | grep .sh | xargs mv /tmp
+	ls- lists the files in the directory 
+	grep- matches strings in a file
+	.sh- command interpreter of shell
+	xargs- builds and executes command lines from standard input
+	mv- move or rename a file
+	/tmp- temporary source/ file to move into destination
+	ls | grep .sh | xargs mv /tmp -will list and match strings the file in the directory in the shell to move/ rename the temporary file
+	
 13. du -sk /home/* | sort -r -n | head -10
+	du -sk /home/* sort -r -n |head -10 -will print files in the current directory and subdirectories in order of size for the first 10 strings of the file into the home directory 
 14. sort -r names.txt
+	sort- will sort the lines of a file and print the results
+	-r -reverse the result of comparisions
+	- -modifies the program's behavior 
+	sort -r names.txt -will sort the line of names.txt and reverse the results
 
 **IMPORTANT** 
 To submit your answers you must do the following:
