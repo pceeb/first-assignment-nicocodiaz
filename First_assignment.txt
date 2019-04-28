@@ -64,7 +64,7 @@ II. Answer the following question. What does this do?
 	sort- will sort the lines of a file and print the results
 	-r -reverse the result of comparisions
 	- -modifies the program's behavior 
-	sort -r names.txt -will sort the line of names.txt and reverse the results # Correct! But it doesnt reverse the results
+	sort -r names.txt -will sort the line of names.txt and reverse the results # Correct!
 
 **IMPORTANT** 
 To submit your answers you must do the following:
