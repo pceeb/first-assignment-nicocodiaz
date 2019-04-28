@@ -28,7 +28,7 @@ II. Answer the following question. What does this do?
 	mkdir -p /test1/test2/test3 -creates the directory test3 and test 1 and test 2 if they do not already exist
 6. cp -r /tmp .
 	cp- copies a file # Correct!
-	cp -r -copies a directory recursively including all the sub directories and files # Incorrect! Here `-r` doesnt meand recursively. It's been used to copy directories 
+	cp -r -copies a directory recursively including all the sub directories and files # Correct! 
 	/tmp -temporary files #Correct! But is a directory
 	cp -r /tmp . -copies a temporary files #Correct! 
 7. ls | less
